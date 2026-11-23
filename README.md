@@ -1,10 +1,11 @@
-<img src="assets/hero.svg" alt="Muaaz Iqbal — animated hero banner" width="100%">
+<img src="assets/hero2.svg" alt="Muaaz Iqbal — 3D animated hero" width="100%">
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=700&color=34D399&center=true&vCenter=true&width=980&height=60&lines=Full-Stack+%26+Android+Developer;Founder+of+Mizanora+%26+Muslim+Islam+Org;AI+Orchestrator+%E2%80%94+Urdu-First+Products;Trader+%E2%80%94+M1+Traders;Kasur%2C+Punjab%2C+Pakistan" alt="Typing animation">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=700&color=34D399&center=true&vCenter=true&width=980&height=60&lines=Full-Stack+%26+Android+Developer;Founder+of+Mizanora+%26+Muslim+Islam+Org;AI+Orchestrator+%E2%80%94+Urdu-First+Products;Trader+%E2%80%94+M1+Traders;Kasur%2C+Punjab%2C+Pakistan" alt="Typing animation">
 </p>
 
-# Assalamu Alaikum, I'm Muaaz Iqbal 👋
+<h1 align="center">Assalamu Alaikum, I'm Muaaz Iqbal 👋</h1>
+<p align="center"><i>— 𝕸𝖚𝖆𝖆𝖟 𝕴𝖖𝖇𝖆𝖑 · 𝐊𝐚𝐬𝐮𝐫, 𝐏𝐮𝐧𝐣𝐚𝐛, 𝐏𝐚𝐤𝐢𝐬𝐭𝐚𝐧 —</i></p>
 
 I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder** from **Kasur, Punjab, Pakistan 🇵🇰** — the kind of small city people call a limitation. I call it a **starting point**. I build complete products alone: the database, the checkout, the Android app, the AI assistant, the docs and the deploy pipeline. Then I test them on a cheap phone over a slow connection — because that is the phone and the connection most of my users actually have.
 
@@ -30,8 +31,8 @@ I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder*
 ## 📊 Live GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muaaz-iqbal&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muaaz-iqbal&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="170">
+  <img src="https://github-readme-stats.vercel.app/api?username=muaaz-iqbal&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&font_family=JetBrains+Mono" alt="GitHub stats" height="170">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muaaz-iqbal&layout=compact&theme=tokyonight&hide_border=true&font_family=JetBrains+Mono" alt="Top languages" height="170">
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=muaaz-iqbal&theme=tokyonight&hide_border=true" alt="GitHub streak" height="160">
@@ -94,7 +95,7 @@ I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder*
 | Repo | Kya hai |
 |---|---|
 |  [**muaaz-iqbal/MIZANORAORG**](https://github.com/muaaz-iqbal/MIZANORAORG) | **Mizanora Platform** — Muaaz Iqbal ka official digital record: status feed, 17 projects, blogs, team, media gallery, timeline aur GitHub-suspension incident ki imaandar detail. Zero-build static site + Firebase (Auth · Firestore · Storage), dual hosting: GitHub Pages + Firebase Hosting → [mizanoraorg.web.app](https://mizanoraorg.web.app) |
-| 👤 [**muaaz-iqbal/muaaz-iqbal**](https://github.com/muaaz-iqbal/muaaz-iqbal) | Ye profile README — animated hero, live stats, timeline aur gallery |
+| 👤 [**muaaz-iqbal/muaaz-iqbal**](https://github.com/muaaz-iqbal/muaaz-iqbal) | Ye profile README — 3D animated hero, live stats, timeline aur gallery |
 
 <img src="assets/wave.svg" alt="animated divider" width="100%">
 
@@ -103,7 +104,7 @@ I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder*
 | Date | Event |
 |---|---|
 | **2009-11-27** | 🎂 Janam — Kasur, Punjab, Pakistan |
-| **2023–2024** |  Shuruaat — pehle projects: web experiments, streaming pipelines, Android apps · Islamia Graduate College me ICS |
+| **2023–2024** | 🌱 Shuruaat — pehle projects: web experiments, streaming pipelines, Android apps · Islamia Graduate College me ICS |
 | **2025** | ⚖️ Mizanora ka qayam — store (11,000+ products), Noor AI, Muslim Islam Org, BarakatWave TV v1 |
 | **2026** | 🚀 Flagship year — Asaan Lang v1.1, SIRAVEX, MI Trade Master + Bot, WhatsApp AI, StreamForge, cloud Android, IPTV Reseller Suite · 90 public repos · 13.7 MB code |
 | **2026-10-30** | 📊 Career stats verified — 90 repos · 800 live channels · 11,000+ products · 38 free tools |
@@ -114,6 +115,8 @@ I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder*
 | **2026-11-23** | 🌐 Mizanora Platform launch — [mizanoraorg.web.app](https://mizanoraorg.web.app) · saara record ek jagah |
 
 ## 🧰 Skills & Stack
+
+<img src="assets/chips.svg" alt="Floating skill chips" width="100%">
 
 <p>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
@@ -151,14 +154,14 @@ I'm a **17-year-old full-stack & Android developer, AI orchestrator and founder*
 
 <table align="center">
   <tr>
-    <td align="center"><img src="assets/photos/muaaz-formal.jpeg" width="170"><br><sub>Formal look 👔</sub></td>
-    <td align="center"><img src="assets/photos/muaaz-college.jpeg" width="170"><br><sub>College days 🎓</sub></td>
-    <td align="center"><img src="assets/photos/muaaz-black.jpeg" width="170"><br><sub>All black 🖤</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-formal.jpeg" width="170"><br><sub>𝓕𝓸𝓻𝓶𝓪𝓵 𝓵𝓸𝓸𝓴 👔</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-college.jpeg" width="170"><br><sub>𝓒𝓸𝓵𝓵𝓮𝓰𝓮 𝓭𝓪𝔂𝓼 🎓</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-black.jpeg" width="170"><br><sub>𝓐𝓵𝓵 𝓫𝓵𝓪𝓬𝓴 🖤</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/photos/muaaz-shades.jpeg" width="170"><br><sub>Shades on 😎</sub></td>
-    <td align="center"><img src="assets/photos/muaaz-polo.jpeg" width="170"><br><sub>Casual grey ☁️</sub></td>
-    <td align="center"><img src="assets/photos/muaaz-minar.jpeg" width="170"><br><sub>Minar-e-Pakistan, Lahore 🕌</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-shades.jpeg" width="170"><br><sub>𝓢𝓱𝓪𝓭𝓮𝓼 𝓸𝓷 😎</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-polo.jpeg" width="170"><br><sub>𝓒𝓪𝓼𝓾𝓪𝓵 𝓰𝓻𝓮𝔂 ☁️</sub></td>
+    <td align="center"><img src="assets/photos/muaaz-minar.jpeg" width="170"><br><sub>𝓜𝓲𝓷𝓪𝓻-𝓮-𝓟𝓪𝓴𝓲𝓼𝓽𝓪𝓷 🕌</sub></td>
   </tr>
 </table>
 

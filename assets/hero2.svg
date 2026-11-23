@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.6" stop-color="#081a14"/>
+      <stop offset="1" stop-color="#04141f"/>
+    </linearGradient>
+    <linearGradient id="ng" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#86efac"/>
+      <stop offset="0.5" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#86efac"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ctop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86efac"/><stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="tt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="20" fill="url(#bg)"/>
+  <ellipse cx="600" cy="200" rx="540" ry="90" fill="url(#hglow)"/>
+
+  <g fill="#e2e8f0">
+    <circle cx="110" cy="50" r="1.6"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="34" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="60" r="1.5"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.4s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="30" r="1.3"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="48" r="1.7"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.8s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="86" r="1.2"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" begin="1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- 3D perspective fly-through floor -->
+  <g stroke="#1f4d3a" stroke-width="1.4" opacity="0.4">
+    <line x1="600" y1="200" x2="-300" y2="410"/><line x1="600" y1="200" x2="-100" y2="410"/>
+    <line x1="600" y1="200" x2="100" y2="410"/><line x1="600" y1="200" x2="300" y2="410"/>
+    <line x1="600" y1="200" x2="500" y2="410"/><line x1="600" y1="200" x2="700" y2="410"/>
+    <line x1="600" y1="200" x2="900" y2="410"/><line x1="600" y1="200" x2="1100" y2="410"/>
+    <line x1="600" y1="200" x2="1300" y2="410"/><line x1="600" y1="200" x2="1500" y2="410"/>
+  </g>
+  <g stroke="#22c55e" stroke-width="1.6">
+    <line x1="0" x2="1200" y1="205" y2="205" opacity="0">
+      <animate attributeName="y1" values="205;410" dur="4s" repeatCount="indefinite"/><animate attributeName="y2" values="205;410" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.15;0.8;1" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="205" y2="205" opacity="0">
+      <animate attributeName="y1" values="205;410" dur="4s" begin="1s" repeatCount="indefinite"/><animate attributeName="y2" values="205;410" dur="4s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.15;0.8;1" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="205" y2="205" opacity="0">
+      <animate attributeName="y1" values="205;410" dur="4s" begin="2s" repeatCount="indefinite"/><animate attributeName="y2" values="205;410" dur="4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.15;0.8;1" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="205" y2="205" opacity="0">
+      <animate attributeName="y1" values="205;410" dur="4s" begin="3s" repeatCount="indefinite"/><animate attributeName="y2" values="205;410" dur="4s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.15;0.8;1" dur="4s" begin="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- extruded 3D name -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="6s" repeatCount="indefinite"/>
+    <text x="68" y="148" font-size="68" font-weight="900" letter-spacing="5" fill="#06281a">MUAAZ IQBAL</text>
+    <text x="66" y="146" font-size="68" font-weight="900" letter-spacing="5" fill="#0a3d27">MUAAZ IQBAL</text>
+    <text x="64" y="144" font-size="68" font-weight="900" letter-spacing="5" fill="#0e5c3a">MUAAZ IQBAL</text>
+    <text x="62" y="142" font-size="68" font-weight="900" letter-spacing="5" fill="#15803d">MUAAZ IQBAL</text>
+    <text x="60" y="140" font-size="68" font-weight="900" letter-spacing="5" fill="url(#ng)">MUAAZ IQBAL</text>
+  </g>
+  <rect x="62" y="156" height="5" rx="2.5" fill="url(#ng)" width="0">
+    <animate attributeName="width" values="0;520;520" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <g font-family="Consolas, Menlo, monospace">
+    <text x="62" y="196" font-size="20" font-weight="700" fill="#e2e8f0">FULL-STACK &amp; ANDROID DEVELOPER · AI ORCHESTRATOR</text>
+    <text x="62" y="226" font-size="15" fill="#94a3b8">FOUNDER — MIZANORA · MUSLIM ISLAM ORG · M1 TRADERS</text>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700">
+    <rect x="62" y="244" width="150" height="30" rx="15" fill="#0d1622" stroke="#22c55e" stroke-opacity="0.5"/>
+    <text x="78" y="264" fill="#86efac">🎂 27 NOV 2009</text>
+    <rect x="222" y="244" width="180" height="30" rx="15" fill="#0d1622" stroke="#f59e0b" stroke-opacity="0.5">
+      <animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="238" y="264" fill="#fcd34d">📍 KASUR, PUNJAB PK</text>
+    <rect x="412" y="244" width="290" height="30" rx="15" fill="#0d1622" stroke="#67e8f9" stroke-opacity="0.5"/>
+    <text x="428" y="264" fill="#67e8f9">🎓 ICS — ISLAMIA GRADUATE COLLEGE</text>
+  </g>
+
+  <!-- orbit + floating cubes -->
+  <ellipse cx="980" cy="130" rx="120" ry="36" fill="none" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="2" transform="rotate(-8 980 130)"/>
+  <circle r="6" fill="#fde68a">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 860 130 A 120 36 0 1 0 1100 130 A 120 36 0 1 0 860 130"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5s" repeatCount="indefinite"/>
+    <polygon points="980,70 1032,100 980,130 928,100" fill="url(#ctop)"/>
+    <polygon points="980,130 1032,100 1032,160 980,190" fill="#c47f0e"/>
+    <polygon points="980,130 928,100 928,160 980,190" fill="#92600a"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="7s" begin="1s" repeatCount="indefinite"/>
+    <polygon points="1090,180 1122.9,199 1090,218 1057.1,199" fill="url(#gt)"/>
+    <polygon points="1090,218 1122.9,199 1122.9,237 1090,256" fill="#15803d"/>
+    <polygon points="1090,218 1057.1,199 1057.1,237 1090,256" fill="#166534"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+    <polygon points="880,200 904.4,214 880,228 855.6,214" fill="url(#tt)"/>
+    <polygon points="880,228 904.4,214 904.4,242 880,256" fill="#0e7490"/>
+    <polygon points="880,228 855.6,214 855.6,242 880,256" fill="#155e75"/>
+  </g>
+  <ellipse cx="980" cy="216" rx="52" ry="11" fill="#000" opacity="0.4">
+    <animate attributeName="rx" values="52;42;52" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- gold trend line -->
+  <path d="M 850 320 C 900 300, 940 330, 1000 280 S 1090 260, 1150 215" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" stroke-dasharray="420" stroke-dashoffset="420">
+    <animate attributeName="stroke-dashoffset" values="420;0;0" keyTimes="0;0.75;1" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="1150" cy="215" r="6" fill="#fbbf24">
+    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="62" y="372" font-size="16" font-style="italic" fill="#64748b">“Unchi soch. Chhote qadam.” — high thinking, small steps · Kasur, Punjab, Pakistan 🇵🇰</text>
+</svg>
