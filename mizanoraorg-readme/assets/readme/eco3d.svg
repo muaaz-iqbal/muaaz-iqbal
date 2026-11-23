@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="iso" width="60" height="34" patternUnits="userSpaceOnUse">
+      <path d="M0 17 L30 0 L60 17 L30 34 Z" fill="none" stroke="#12283a" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="16" fill="#070b12"/>
+  <rect width="1200" height="320" rx="16" fill="url(#iso)" opacity="0.6"/>
+
+  <!-- floating 3D project tiles -->
+  <g text-anchor="middle">
+    <ellipse cx="125" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="70;58;70" dur="5s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5s" repeatCount="indefinite"/>
+      <rect x="40" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="125" y="106" font-size="30">⚖️</text><text x="125" y="132" font-size="16" font-weight="700" fill="#e2e8f0">Mizanora</text>
+      <text x="125" y="150" font-size="11" fill="#7ee787">HALAL MARKET · 11K+ PRODUCTS</text></g>
+
+    <ellipse cx="320" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="58;70;58" dur="6s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 -12; 0 0; 0 -12" dur="6s" repeatCount="indefinite"/>
+      <rect x="235" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="320" y="106" font-size="30">🐍</text><text x="320" y="132" font-size="16" font-weight="700" fill="#e2e8f0">Asaan Lang</text>
+      <text x="320" y="150" font-size="11" fill="#7ee787">URDU PROGRAMMING LANGUAGE</text></g>
+
+    <ellipse cx="515" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="70;58;70" dur="5.5s" begin="0.6s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5.5s" begin="0.6s" repeatCount="indefinite"/>
+      <rect x="430" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="515" y="106" font-size="30">📺</text><text x="515" y="132" font-size="16" font-weight="700" fill="#e2e8f0">BarakatWave TV</text>
+      <text x="515" y="150" font-size="11" fill="#7ee787">800 CHANNELS · IMDB CINEMA</text></g>
+
+    <ellipse cx="710" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="58;70;58" dur="6.5s" begin="1.1s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 -12; 0 0; 0 -12" dur="6.5s" begin="1.1s" repeatCount="indefinite"/>
+      <rect x="625" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="710" y="106" font-size="30">🎛️</text><text x="710" y="132" font-size="16" font-weight="700" fill="#e2e8f0">SIRAVEX</text>
+      <text x="710" y="150" font-size="11" fill="#7ee787">PREMIUM WEB IPTV PLAYER</text></g>
+
+    <ellipse cx="905" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="70;58;70" dur="5.2s" begin="0.3s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5.2s" begin="0.3s" repeatCount="indefinite"/>
+      <rect x="820" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="905" y="106" font-size="30">📈</text><text x="905" y="132" font-size="16" font-weight="700" fill="#e2e8f0">MI Trade Master</text>
+      <text x="905" y="150" font-size="11" fill="#7ee787">AI TRADING TEACHER</text></g>
+
+    <ellipse cx="1100" cy="215" rx="70" ry="13" fill="#000" opacity="0.45"><animate attributeName="rx" values="58;70;58" dur="6.2s" begin="0.9s" repeatCount="indefinite"/></ellipse>
+    <g><animateTransform attributeName="transform" type="translate" values="0 -12; 0 0; 0 -12" dur="6.2s" begin="0.9s" repeatCount="indefinite"/>
+      <rect x="1015" y="70" width="170" height="92" rx="14" fill="#0d1622" stroke="url(#edge)" stroke-width="1.6"/>
+      <text x="1100" y="106" font-size="30">🧠</text><text x="1100" y="132" font-size="16" font-weight="700" fill="#e2e8f0">Noor AI</text>
+      <text x="1100" y="150" font-size="11" fill="#7ee787">URDU-FIRST ASSISTANT</text></g>
+  </g>
+
+  <!-- mini chips -->
+  <g font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700">
+    <rect x="150" y="252" width="180" height="30" rx="15" fill="#0d1622" stroke="#22c55e" stroke-opacity="0.45"/>
+    <text x="172" y="272" fill="#86efac">🎥 STREAMFORGE 24/7</text>
+    <rect x="350" y="252" width="220" height="30" rx="15" fill="#0d1622" stroke="#f59e0b" stroke-opacity="0.45"/>
+    <text x="372" y="272" fill="#fcd34d">🔴 MIZANORA TV LIVE</text>
+    <rect x="590" y="252" width="200" height="30" rx="15" fill="#0d1622" stroke="#22c55e" stroke-opacity="0.45"/>
+    <text x="612" y="272" fill="#86efac">💬 WHATSAPP AI AGENT</text>
+    <rect x="810" y="252" width="240" height="30" rx="15" fill="#0d1622" stroke="#67e8f9" stroke-opacity="0.45"/>
+    <text x="832" y="272" fill="#67e8f9">🧾 IPTV RESELLER SUITE v6.1.2</text>
+  </g>
+</svg>

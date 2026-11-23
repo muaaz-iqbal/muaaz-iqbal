@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="170" rx="16" fill="#0d1117"/>
+  <text x="20" y="34" font-size="18" font-weight="700" fill="#e2e8f0">Repo language mix — live GitHub data</text>
+  <g font-size="15" fill="#cbd5e1">
+    <text x="12" y="74">JavaScript</text>
+    <text x="12" y="109">HTML</text>
+    <text x="12" y="144">CSS</text>
+  </g>
+  <g fill="#16202e">
+    <rect x="120" y="60" width="450" height="20" rx="10"/>
+    <rect x="120" y="95" width="450" height="20" rx="10"/>
+    <rect x="120" y="130" width="450" height="20" rx="10"/>
+  </g>
+  <rect x="120" y="60" width="0" height="20" rx="10" fill="#f7df1e">
+    <animate attributeName="width" values="0;450" dur="1.4s" begin="0.3s" fill="freeze"/>
+  </rect>
+  <rect x="120" y="95" width="0" height="20" rx="10" fill="#e34c26">
+    <animate attributeName="width" values="0;212" dur="1.4s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <rect x="120" y="130" width="0" height="20" rx="10" fill="#663399">
+    <animate attributeName="width" values="0;153" dur="1.4s" begin="0.7s" fill="freeze"/>
+  </rect>
+  <g font-size="14" font-weight="700" fill="#7ee787">
+    <text x="580" y="75">55.2%</text>
+    <text x="580" y="110">26.0%</text>
+    <text x="580" y="145">18.8%</text>
+  </g>
+</svg>
