@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" font-family="Consolas, Menlo, monospace">
+  <rect x="0" y="0" width="1200" height="64" rx="14" fill="#0b1220"/>
+  <rect x="0" y="0" width="1200" height="64" rx="14" fill="none" stroke="#1f2b3e" stroke-width="2"/>
+  <g font-size="24" font-weight="700" fill="#86efac">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-2400 0" dur="30s" repeatCount="indefinite"/>
+    <text x="0" y="41" textLength="2400" lengthAdjust="spacingAndGlyphs">MIZANORA  · ASAAN LANG 🐍 · BARAKATWAVE TV 📺 · SIRAVEX 🎛 · MI TRADE MASTER 📈 · NOOR AI 🧠 · STREAMFORGE 🎥 · MIZANORA TV LIVE 🔴 · WHATSAPP AI 💬 · IPTV RESELLER SUITE 🧾 ·</text>
+    <text x="2400" y="41" textLength="2400" lengthAdjust="spacingAndGlyphs">MIZANORA ⚖ · ASAAN LANG 🐍 · BARAKATWAVE TV 📺 · SIRAVEX 🎛 · MI TRADE MASTER 📈 · NOOR AI 🧠 · STREAMFORGE 🎥 · MIZANORA TV LIVE 🔴 · WHATSAPP AI 💬 · IPTV RESELLER SUITE 🧾 ·</text>
+  </g>
+</svg>
